@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <!-- <div class="menu-icon">&#9776;</div> -->
+                <div>
+                    <h1 >Hello Buddy</h1>
+                    <p id="total-tasks">Today you have 0 Tasks</p>
+                </div>
+                <div class="user-icon"><img src="assets/image.png" alt="User Icon"></div>
+            </div>
+        </header>
+        <div class="categories">
+            <div class="category" id="personal" onclick="openCategory('personal')">
+                <img src="assets/image copy.png" alt="Personal">
+                <div class="category-text">
+                    <h2>Personal</h2>
+                    <p id="personal-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="work" onclick="openCategory('work')">
+                <img src="assets/work.png" alt="Work">
+                <div class="category-text">
+                    <h2>Work</h2>
+                    <p id="work-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="shopping" onclick="openCategory('shopping')">
+                <img src="assets/shoping.png" alt="Shopping">
+                <div class="category-text">
+                    <h2>Shopping</h2>
+                    <p id="shopping-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="coding" onclick="openCategory('coding')">
+                <img src="assets/code.png" alt="Coding">
+                <div class="category-text">
+                    <h2>Coding</h2>
+                    <p id="coding-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="health" onclick="openCategory('health')">
+                <img src="assets/helath.png" alt="Health">
+                <div class="category-text">
+                    <h2>Health</h2>
+                    <p id="health-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="education" onclick="openCategory('education')">
+                <img src="assets/edu.png" alt="Education">
+                <div class="category-text">
+                    <h2>Education</h2>
+                    <p id="education-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="fitness" onclick="openCategory('fitness')">
+                <img src="assets/fit.png" alt="Fitness">
+                <div class="category-text">
+                    <h2>Fitness</h2>
+                    <p id="fitness-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="finance" onclick="openCategory('finance')">
+                <img src="assets/fini.png" alt="Finance">
+                <div class="category-text">
+                    <h2>Finance</h2>
+                    <p id="finance-count">0 Tasks</p>
+                </div>
+            </div>
+            <div class="category" id="festival" onclick="openCategory('festival')">
+                <img src="assets/festi.png" alt="Festival">
+                <div class="category-text">
+                    <h2>Festival</h2>
+                    <p id="festival-count">0 Tasks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
