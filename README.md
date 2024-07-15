@@ -1,3 +1,3 @@
 #here is to-do list
 Here is the live demo
-https://td-master-6mhfp8l1p-hls-projects-76e5e5bc.vercel.app
+https://669517914108cf1ee33022cd--todolist-web-project.netlify.app
